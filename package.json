@@ -1,0 +1,30 @@
+{
+  "name": "react-flux-recipes",
+  "version": "0.0.0",
+  "description": "A recipe app that simplifies the process of shopping and cooking your favorite recipes.",
+  "main": "./bin/www",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoonTahoe/react-flux-recipes.git"
+  },
+  "keywords": [
+    "recipies",
+    "shopping",
+    "cooking",
+    "learning",
+    "react",
+    "flux",
+    "redux",
+    "react-router",
+    "tutorial"
+  ],
+  "author": "Alex Banks <alex@moonhighway.com> (http://www.moonhighway.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MoonTahoe/react-flux-recipes/issues"
+  },
+  "homepage": "https://github.com/MoonTahoe/react-flux-recipes#readme"
+}
