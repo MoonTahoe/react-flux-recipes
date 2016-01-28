@@ -2,8 +2,9 @@
   "name": "react-flux-recipes",
   "version": "0.0.0",
   "description": "A recipe app that simplifies the process of shopping and cooking your favorite recipes.",
-  "main": "./bin/www",
+  "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "mocha --recursive"
   },
   "repository": {
@@ -26,5 +27,13 @@
   "bugs": {
     "url": "https://github.com/MoonTahoe/react-flux-recipes/issues"
   },
-  "homepage": "https://github.com/MoonTahoe/react-flux-recipes#readme"
+  "homepage": "https://github.com/MoonTahoe/react-flux-recipes#readme",
+  "devDependencies": {
+    "mocha": "^2.4.4",
+    "supertest": "^1.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4"
+  }
 }
