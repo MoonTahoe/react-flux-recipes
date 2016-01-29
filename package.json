@@ -4,6 +4,7 @@
   "description": "A recipe app that simplifies the process of shopping and cooking your favorite recipes.",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
     "start": "node index.js",
     "test": "mocha --recursive"
   },
@@ -36,6 +37,8 @@
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-0": "^6.3.13",
     "css-loader": "^0.23.1",
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.16.1",
     "mocha": "^2.4.4",
     "node-sass": "^3.4.2",
     "postcss-loader": "^0.8.0",
