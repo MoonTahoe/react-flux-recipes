@@ -1,3 +1,5 @@
+dist/assets/
+
 _ignore.*
 
 .idea/

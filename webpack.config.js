@@ -2,7 +2,7 @@ var path = require("path");
 var autoprefixer = require("autoprefixer");
 
 module.exports = {
-    entry: "./client.js",
+    entry: "./index.js",
     output: {
         path: "dist/assets",
         filename: "bundle.js",

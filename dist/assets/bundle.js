@@ -58,67 +58,14 @@
 
 	var _APP2 = _interopRequireDefault(_APP);
 
+	var _recipies = __webpack_require__(168);
+
+	var _recipies2 = _interopRequireDefault(_recipies);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var recipies = [{
-	    "name": "Baked Salmon",
-	    "ingredients": [{
-	        "name": "Salmon",
-	        "amount": 1,
-	        "measurement": "lb"
-	    }, {
-	        "name": "Pine Nuts",
-	        "amount": 1,
-	        "measurement": "cup"
-	    }, {
-	        "name": "Butter Lettuce",
-	        "amount": 2,
-	        "measurement": "cups",
-	        "prep": "neatly chopped"
-	    }, {
-	        "name": "Yellow Squash",
-	        "amount": 1,
-	        "measurement": "med"
-	    }, {
-	        "name": "Olive Oil",
-	        "amount": 0.5,
-	        "measurement": "cup"
-	    }, {
-	        "name": "Garlic",
-	        "amount": 3,
-	        "measurement": "cloves"
-	    }],
-	    "steps": ["Preheat the oven to 350 degrees.", "Spread the olive oil around a glass baking dish.", "Add the salmon, Garlic, and pine nuts to the dish", "Bake for 15 minutes.", "Add the Butternut Squash and put back in the oven for 30 mins.", "Remove from oven and let cool for 15 minutes. Add the lettuce and serve."]
-	}, {
-	    "name": "Fish Tacos",
-	    "ingredients": [{
-	        "name": "Whitefish",
-	        "amount": 1,
-	        "measurement": "lb"
-	    }, {
-	        "name": "cheese",
-	        "amount": 1,
-	        "measurement": "cup",
-	        "prep": "shredded"
-	    }, {
-	        "name": "Iceberg Lettuce",
-	        "amount": 2,
-	        "measurement": "cups",
-	        "prep": "neatly chopped"
-	    }, {
-	        "name": "Tomatos",
-	        "amount": 2,
-	        "measurement": "large",
-	        "prep": "diced"
-	    }, {
-	        "name": "Tortillas",
-	        "amount": 3,
-	        "measurement": "med"
-	    }],
-	    "steps": ["Cook the Fish on the Grill until Hot", "Place the fish on the 3 tortillas", "Top them with lettuce, tomatos, and cheese"]
-	}];
 	window.React = _react2.default;
-	_reactDom2.default.render(_react2.default.createElement(_APP2.default, { recipies: recipies }), document.getElementById("react-container"));
+	_reactDom2.default.render(_react2.default.createElement(_APP2.default, { recipies: _recipies2.default }), document.getElementById("react-container"));
 
 /***/ },
 /* 1 */
@@ -9377,6 +9324,7 @@
 	 */
 	var EventInterface = {
 	  type: null,
+	  target: null,
 	  // currentTarget is set when dispatching; no use in copying it here
 	  currentTarget: emptyFunction.thatReturnsNull,
 	  eventPhase: null,
@@ -9410,8 +9358,6 @@
 	  this.dispatchConfig = dispatchConfig;
 	  this.dispatchMarker = dispatchMarker;
 	  this.nativeEvent = nativeEvent;
-	  this.target = nativeEventTarget;
-	  this.currentTarget = nativeEventTarget;
 
 	  var Interface = this.constructor.Interface;
 	  for (var propName in Interface) {
@@ -9422,7 +9368,11 @@
 	    if (normalize) {
 	      this[propName] = normalize(nativeEvent);
 	    } else {
-	      this[propName] = nativeEvent[propName];
+	      if (propName === 'target') {
+	        this.target = nativeEventTarget;
+	      } else {
+	        this[propName] = nativeEvent[propName];
+	      }
 	    }
 	  }
 
@@ -13271,7 +13221,10 @@
 	      }
 	    });
 
-	    nativeProps.children = content;
+	    if (content) {
+	      nativeProps.children = content;
+	    }
+
 	    return nativeProps;
 	  }
 
@@ -18744,7 +18697,7 @@
 
 	'use strict';
 
-	module.exports = '0.14.6';
+	module.exports = '0.14.7';
 
 /***/ },
 /* 147 */
@@ -19847,12 +19800,7 @@
 	            "span",
 	            { className: "name" },
 	            name
-	        ),
-	        prep ? React.createElement(
-	            "span",
-	            { className: "prep" },
-	            prep
-	        ) : null
+	        )
 	    );
 	};
 
@@ -20235,6 +20183,66 @@
 			URL.revokeObjectURL(oldSrc);
 	}
 
+
+/***/ },
+/* 168 */
+/***/ function(module, exports) {
+
+	"use strict";
+
+	module.exports = [{
+	  "name": "Baked Salmon",
+	  "ingredients": [{
+	    "name": "Salmon",
+	    "amount": 1,
+	    "measurement": "lb"
+	  }, {
+	    "name": "Pine Nuts",
+	    "amount": 1,
+	    "measurement": "cup"
+	  }, {
+	    "name": "Butter Lettuce",
+	    "amount": 2,
+	    "measurement": "cups"
+	  }, {
+	    "name": "Yellow Squash",
+	    "amount": 1,
+	    "measurement": "med"
+	  }, {
+	    "name": "Olive Oil",
+	    "amount": 0.5,
+	    "measurement": "cup"
+	  }, {
+	    "name": "Garlic",
+	    "amount": 3,
+	    "measurement": "cloves"
+	  }],
+	  "steps": ["Preheat the oven to 350 degrees.", "Spread the olive oil around a glass baking dish.", "Add the salmon, Garlic, and pine nuts to the dish", "Bake for 15 minutes.", "Add the Butternut Squash and put back in the oven for 30 mins.", "Remove from oven and let cool for 15 minutes. Add the lettuce and serve."]
+	}, {
+	  "name": "Fish Tacos",
+	  "ingredients": [{
+	    "name": "Whitefish",
+	    "amount": 1,
+	    "measurement": "lb"
+	  }, {
+	    "name": "cheese",
+	    "amount": 1,
+	    "measurement": "cup"
+	  }, {
+	    "name": "Iceberg Lettuce",
+	    "amount": 2,
+	    "measurement": "cups"
+	  }, {
+	    "name": "Tomatos",
+	    "amount": 2,
+	    "measurement": "large"
+	  }, {
+	    "name": "Tortillas",
+	    "amount": 3,
+	    "measurement": "med"
+	  }],
+	  "steps": ["Cook the Fish on the Grill until Hot", "Place the fish on the 3 tortillas", "Top them with lettuce, tomatos, and cheese"]
+	}];
 
 /***/ }
 /******/ ]);
