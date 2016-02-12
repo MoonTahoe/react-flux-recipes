@@ -1,9 +1,13 @@
+var webpack = require("webpack");
+
 module.exports = {
     entry: "./main.js",
     output: {
         path: "dist/assets",
-        filename: "bundle.js"
+        filename: "bundle.js",
+        sourceMapFilename: 'bundle.map'
     },
+    devtool: '#source-map',
     module: {
         loaders: [
             {
@@ -16,4 +20,12 @@ module.exports = {
             }
         ]
     }
+    //,
+    //plugins: [
+    //    new webpack.optimize.UglifyJsPlugin({
+    //        sourceMap: true,
+    //        warnings: false,
+    //        mangle: false
+    //    })
+    //]
 };
