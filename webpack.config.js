@@ -19,13 +19,12 @@ module.exports = {
                 }
             }
         ]
-    }
-    //,
-    //plugins: [
-    //    new webpack.optimize.UglifyJsPlugin({
-    //        sourceMap: true,
-    //        warnings: false,
-    //        mangle: false
-    //    })
-    //]
+    },
+    plugins: [
+        new webpack.optimize.UglifyJsPlugin({
+            sourceMap: true,
+            warnings: false,
+            mangle: false
+        })
+    ]
 };
