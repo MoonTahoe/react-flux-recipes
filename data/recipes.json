@@ -80,5 +80,227 @@
       "Place the fish on the 3 tortillas",
       "Top them with lettuce, tomatos, and cheese"
     ]
+  },
+
+  {
+    "Name": "Egg and Cheese sandwich",
+    "Ingredients": [
+      {
+        "Name": "Eggs",
+        "Amount": 2,
+        "Measurement": "1b"
+      },
+      {
+        "Name": "Slices of Cheese",
+        "Amount": 2,
+        "Measurement": "slices"
+      },
+      {
+        "Name": "Slices of Bread",
+        "Amount": 2,
+        "Measurement": "slices"
+      },
+      {
+        "Name": "Garlic Salt",
+        "Amount": 1,
+        "Measurement": "tsps"
+
+      },
+      {
+        "Name": "Garlic Pepper",
+        "Amount": 1,
+        "Measurement": "tsp"
+      },
+      {
+        "Name": "Butter",
+        "Amount": 2,
+        "Measurement": "tbps"
+      }
+    ],
+    "Steps": [
+      "Heat pan to medium-high.",
+      "Beat eggs, salt, and pepper into a small mixing bowl.",
+      "Pour mixture into pan, reduce heat to medium.",
+      "Spread butter onto 1 side of each bread slide.",
+      "Fold egg mixture in half.",
+      "Place 1 slide of bread butter side down on the open portion of the pan.",
+      "Set 1 slide of cheese onto top of bread.",
+      "When mixture has solidified 90%, flip onto the top of bread/cheese.",
+      "Immediately place other cheese slice ontop of eggs followed by the other bread slide, butter side up.",
+      "Wait a minute or 2 and flip over.",
+      "Wait 3-5 minutes or until brown to your liking. Remove and serve."
+    ]
+  },
+
+  {
+    "Name": "Yogurt Parfait",
+    "Ingredients": [
+      {
+        "Name": "Yogurt",
+        "Amount": "1/4",
+        "Measurement": "cup"
+      },
+      {
+        "Name": "Blueberries (or fruit of choice)",
+        "Amount": 1,
+        "Measurement": "oz"
+      },
+      {
+        "Name": "Honey",
+        "Amount": 10,
+        "Measurement": "grams"
+      },
+      {
+        "Name": "Granola",
+        "Amount": 3,
+        "Measurement": "tbps"
+
+      }
+    ],
+    "Steps": [
+      "Put yogurt of your flavor into a small bowl.",
+      "Layer honey on top.",
+      "Cover honey with granola.",
+      "Sprinkle blueberries last."
+    ]
+  },
+
+  {
+    "Name": "Pasta medley",
+    "Ingredients": [
+      {
+        "Name": "Pasta of your choice",
+        "Amount": 12,
+        "Measurement": "oz"
+      },
+      {
+        "Name": "Spinach",
+        "Amount": 1,
+        "Measurement": "bundle"
+      },
+      {
+        "Name": "Chicken or Turkey Sausage Links",
+        "Amount": 16,
+        "Measurement": "oz",
+        "Prep": "chopped"
+      },
+      {
+        "Name": "Pesto",
+        "Amount": 2,
+        "Measurement": "oz"
+      },
+      {
+        "Name": "Olive Oil",
+        "Amount": 2,
+        "Measurement": "tbsps"
+      },
+      {
+        "Name": "Garlic Salt",
+        "Amount": 1,
+        "Measurement": "pinch"
+      },
+      {
+        "Name": "Cheese",
+        "Amount": 4,
+        "Measurement": "oz",
+        "Prep": "shredded"
+      }
+    ],
+    "Steps": [
+      "Bring 5 qts of water to a pot or per packaging specifications.",
+      "Heat a skillet on medium-high. Add olive oil.",
+      "Dump sausage into skillet.",
+      "When water rapidly boils, add pasta and stir immediately.",
+      "After a few minutes, stir sausages and pasta occasionally.",
+      "When sausage is half way done, add spinach.",
+      "Turn off heat on skillet when spinach is fully cooked down.",
+      "Drain pasta in a colander when tender.",
+      "Put pasta back in pot. Add pesto, sausage/spinach mix, and garlic salt. Stir well.",
+      "Serve on a pasta bowl. Layer with cheese."
+    ]
+  },
+
+  {
+    "Name": "Quesadilla",
+    "Ingredients": [
+      {
+        "Name": "Tortilla",
+        "Amount": 2,
+        "Measurement": "1b"
+      },
+      {
+        "Name": "Cheese",
+        "Amount": 4,
+        "Measurement": "oz",
+        "Prep": "shredded"
+      },
+      {
+        "Name": "Chicken or Turkey Sausage Links",
+        "Amount": 2,
+        "Measurement": "oz",
+        "Prep": "chopped"
+      },
+      {
+        "Name": "Sour Cream",
+        "Amount": 3,
+        "Measurement": "oz"
+      },
+      {
+        "Name": "Salsa",
+        "Amount": 3,
+        "Measurement": "oz"
+      }
+    ],
+    "Steps": [
+      "Heat pan to medium. Add olive oil.",
+      "Place tortilla onto pan.",
+      "Dump sausage into skillet.",
+      "When water rapidly boils, add pasta and stir immediately.",
+      "After a few minutes, stir sausages and pasta occasionally.",
+      "When sausage is half way done, add spinach.",
+      "Turn off heat on skillet when spinach is fully cooked down.",
+      "Drain pasta in a colander when tender.",
+      "Put pasta back in pot. Add pesto, sausage/spinach mix, and garlic salt. Stir well.",
+      "Serve on a pasta bowl. Layer with cheese."
+    ]
+  },
+  {
+    "Name": "Campfire baked potatoe",
+    "Ingredients": [
+      {
+        "Name": "Potatoe",
+        "Amount": 1,
+        "Measurement": "1b"
+      },
+      {
+        "Name": "Butter",
+        "Amount": 2,
+        "Measurement": "grams"
+      },
+      {
+        "Name": "Salt",
+        "Amount": 4,
+        "Measurement": "pinch"
+      },
+      {
+        "Name": "Sour Cream",
+        "Amount": 3,
+        "Measurement": "oz"
+      },
+      {
+        "Name": "Aluminum Foil",
+        "Amount": 1,
+        "Measurement": "sheet"
+      }
+    ],
+    "Steps": [
+      "Make a fire until coals are hot.",
+      "Cut potatoe lengthwise but only halfway deep.",
+      "Fill potatoe with butter and salt.",
+      "Wrap in foil and set on a grate or on coals.",
+      "Wait 20 minutes. Remove from heat and wait 5 more minutes.",
+      "Unwrap, fill with sour cream, and serve."
+    ]
   }
+
 ]
