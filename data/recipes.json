@@ -81,43 +81,42 @@
       "Top them with lettuce, tomatos, and cheese"
     ]
   },
-
   {
-    "Name": "Egg and Cheese sandwich",
-    "Ingredients": [
+    "name": "Egg and Cheese sandwich",
+    "ingredients": [
       {
-        "Name": "Eggs",
-        "Amount": 2,
-        "Measurement": "1b"
+        "name": "Eggs",
+        "amount": 2,
+        "measurement": "1b"
       },
       {
-        "Name": "Slices of Cheese",
-        "Amount": 2,
-        "Measurement": "slices"
+        "name": "Slices of Cheese",
+        "amount": 2,
+        "measurement": "slices"
       },
       {
-        "Name": "Slices of Bread",
-        "Amount": 2,
-        "Measurement": "slices"
+        "name": "Slices of Bread",
+        "amount": 2,
+        "measurement": "slices"
       },
       {
-        "Name": "Garlic Salt",
-        "Amount": 1,
-        "Measurement": "tsps"
+        "name": "Garlic Salt",
+        "amount": 1,
+        "measurement": "tsps"
 
       },
       {
-        "Name": "Garlic Pepper",
-        "Amount": 1,
-        "Measurement": "tsp"
+        "name": "Garlic Pepper",
+        "amount": 1,
+        "measurement": "tsp"
       },
       {
-        "Name": "Butter",
-        "Amount": 2,
-        "Measurement": "tbps"
+        "name": "Butter",
+        "amount": 2,
+        "measurement": "tbps"
       }
     ],
-    "Steps": [
+    "steps": [
       "Heat pan to medium-high.",
       "Beat eggs, salt, and pepper into a small mixing bowl.",
       "Pour mixture into pan, reduce heat to medium.",
@@ -131,82 +130,80 @@
       "Wait 3-5 minutes or until brown to your liking. Remove and serve."
     ]
   },
-
   {
-    "Name": "Yogurt Parfait",
-    "Ingredients": [
+    "name": "Yogurt Parfait",
+    "ingredients": [
       {
-        "Name": "Yogurt",
-        "Amount": "1/4",
-        "Measurement": "cup"
+        "name": "Yogurt",
+        "amount": "1/4",
+        "measurement": "cup"
       },
       {
-        "Name": "Blueberries (or fruit of choice)",
-        "Amount": 1,
-        "Measurement": "oz"
+        "name": "Blueberries (or fruit of choice)",
+        "amount": 1,
+        "measurement": "oz"
       },
       {
-        "Name": "Honey",
-        "Amount": 10,
-        "Measurement": "grams"
+        "name": "Honey",
+        "amount": 10,
+        "measurement": "grams"
       },
       {
-        "Name": "Granola",
-        "Amount": 3,
-        "Measurement": "tbps"
+        "name": "Granola",
+        "amount": 3,
+        "measurement": "tbps"
 
       }
     ],
-    "Steps": [
+    "steps": [
       "Put yogurt of your flavor into a small bowl.",
       "Layer honey on top.",
       "Cover honey with granola.",
       "Sprinkle blueberries last."
     ]
   },
-
   {
-    "Name": "Pasta medley",
-    "Ingredients": [
+    "name": "Pasta medley",
+    "ingredients": [
       {
-        "Name": "Pasta of your choice",
-        "Amount": 12,
-        "Measurement": "oz"
+        "name": "Pasta of your choice",
+        "amount": 12,
+        "measurement": "oz"
       },
       {
-        "Name": "Spinach",
-        "Amount": 1,
-        "Measurement": "bundle"
+        "name": "Spinach",
+        "amount": 1,
+        "measurement": "bundle"
       },
       {
-        "Name": "Chicken or Turkey Sausage Links",
-        "Amount": 16,
-        "Measurement": "oz",
-        "Prep": "chopped"
+        "name": "Chicken or Turkey Sausage Links",
+        "amount": 16,
+        "measurement": "oz",
+        "prep": "chopped"
       },
       {
-        "Name": "Pesto",
-        "Amount": 2,
-        "Measurement": "oz"
+        "name": "Pesto",
+        "amount": 2,
+        "measurement": "oz"
       },
       {
-        "Name": "Olive Oil",
-        "Amount": 2,
-        "Measurement": "tbsps"
+        "name": "Olive Oil",
+        "amount": 2,
+        "measurement": "tbsps"
       },
       {
-        "Name": "Garlic Salt",
-        "Amount": 1,
-        "Measurement": "pinch"
+        "name": "Garlic Salt",
+        "amount": 1,
+        "measurement": "pinch"
       },
       {
-        "Name": "Cheese",
-        "Amount": 4,
-        "Measurement": "oz",
-        "Prep": "shredded"
+        "name": "Cheese",
+        "amount": 4,
+        "measurement": "oz",
+        "prep": "shredded"
       }
     ],
-    "Steps": [
+    "steps": [
       "Bring 5 qts of water to a pot or per packaging specifications.",
       "Heat a skillet on medium-high. Add olive oil.",
       "Dump sausage into skillet.",
@@ -219,39 +216,38 @@
       "Serve on a pasta bowl. Layer with cheese."
     ]
   },
-
   {
-    "Name": "Quesadilla",
-    "Ingredients": [
+    "name": "Quesadilla",
+    "ingredients": [
       {
-        "Name": "Tortilla",
-        "Amount": 2,
-        "Measurement": "1b"
+        "name": "Tortilla",
+        "amount": 2,
+        "measurement": "1b"
       },
       {
-        "Name": "Cheese",
-        "Amount": 4,
-        "Measurement": "oz",
-        "Prep": "shredded"
+        "name": "Cheese",
+        "amount": 4,
+        "measurement": "oz",
+        "prep": "shredded"
       },
       {
-        "Name": "Chicken or Turkey Sausage Links",
-        "Amount": 2,
-        "Measurement": "oz",
-        "Prep": "chopped"
+        "name": "Chicken or Turkey Sausage Links",
+        "amount": 2,
+        "measurement": "oz",
+        "prep": "chopped"
       },
       {
-        "Name": "Sour Cream",
-        "Amount": 3,
-        "Measurement": "oz"
+        "name": "Sour Cream",
+        "amount": 3,
+        "measurement": "oz"
       },
       {
-        "Name": "Salsa",
-        "Amount": 3,
-        "Measurement": "oz"
+        "name": "Salsa",
+        "amount": 3,
+        "measurement": "oz"
       }
     ],
-    "Steps": [
+    "steps": [
       "Heat pan to medium. Add olive oil.",
       "Place tortilla onto pan.",
       "Dump sausage into skillet.",
@@ -265,35 +261,35 @@
     ]
   },
   {
-    "Name": "Campfire baked potatoe",
-    "Ingredients": [
+    "name": "Campfire baked potatoe",
+    "ingredients": [
       {
-        "Name": "Potatoe",
-        "Amount": 1,
-        "Measurement": "1b"
+        "name": "Potatoe",
+        "amount": 1,
+        "measurement": "1b"
       },
       {
-        "Name": "Butter",
-        "Amount": 2,
-        "Measurement": "grams"
+        "name": "Butter",
+        "amount": 2,
+        "measurement": "grams"
       },
       {
-        "Name": "Salt",
-        "Amount": 4,
-        "Measurement": "pinch"
+        "name": "Salt",
+        "amount": 4,
+        "measurement": "pinch"
       },
       {
-        "Name": "Sour Cream",
-        "Amount": 3,
-        "Measurement": "oz"
+        "name": "Sour Cream",
+        "amount": 3,
+        "measurement": "oz"
       },
       {
-        "Name": "Aluminum Foil",
-        "Amount": 1,
-        "Measurement": "sheet"
+        "name": "Aluminum Foil",
+        "amount": 1,
+        "measurement": "sheet"
       }
     ],
-    "Steps": [
+    "steps": [
       "Make a fire until coals are hot.",
       "Cut potatoe lengthwise but only halfway deep.",
       "Fill potatoe with butter and salt.",
@@ -302,5 +298,4 @@
       "Unwrap, fill with sour cream, and serve."
     ]
   }
-
 ]
