@@ -1,9 +1,9 @@
 import Recipe from './Recipe'
 
-export const Menu = ({ recipes }) => (
+export const Menu = ({ title, recipes }) => (
     <article>
         <header>
-            <h1>Delicious Recipes</h1>
+            <h1>{title}</h1>
         </header>
         <div className="recipes">
             { recipes.map((recipe, i) => <Recipe key={i} {...recipe} />) }
