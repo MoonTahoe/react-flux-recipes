@@ -4,4 +4,4 @@ import Menu from './components/Menu'
 import data from '!json!./data/recipes.json'
 
 window.React = React;
-ReactDOM.render(<Menu recipies={data} />, document.getElementById("react-container"));
+ReactDOM.render(<Menu recipes={data} />, document.getElementById("react-container"));
